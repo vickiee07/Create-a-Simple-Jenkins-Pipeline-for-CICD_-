@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/vickiee/https://github.com/vickiee07/Create-a-Simple-Jenkins-Pipeline-for-CICD_-',
+                    url: 'https://github.com/vickiee07/Create-a-Simple-Jenkins-Pipeline-for-CICD_-',
                     credentialsId: 'github-cred'
             }
         }
