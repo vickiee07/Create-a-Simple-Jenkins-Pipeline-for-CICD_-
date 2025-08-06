@@ -11,7 +11,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("my-app:070)
+                    docker.build("my-app:070")
                 }
             }
         }
@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo "Running tests..."'
-                // Example: sh 'npm test' OR sh 'pytest' OR sh 'mvn test'
+            
             }
         }
 
